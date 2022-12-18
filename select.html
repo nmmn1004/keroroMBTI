@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="./js/keroro.js"></script>
+  <link rel="icon" href="./src/img/favicon.png">
   <link rel="stylesheet" href="./css/keroro.css">
   <title>선택</title>
 </head>
@@ -19,9 +20,9 @@
       <br>우연히 퍼령별인에게 들켰다!
       <br>퍼렁별인에게 나는...
     </p>
-    <img src="./src/img/step1.png" alt="situation" id="sitImg">
-    <button class="choiceBtn"><p class="choiceTxt outlineBlack">하하;; 안녕하십니까~ 좋은 아침입니다!</p></button>
-    <button class="choiceBtn"><p class="choiceTxt outlineBlack">하하...(어쩌지, 망했다!!)</p></button>
+    <img src="./src/img/select/step1.png" alt="situation" id="sitImg">
+    <button class="choiceBtn" onclick="select(1)"><p class="choiceTxt outlineBlack" id="a1">하하;; 안녕하십니까~ 좋은 아침입니다!</p></button>
+    <button class="choiceBtn" onclick="select(-1)"><p class="choiceTxt outlineBlack" id="a2">하하...(어쩌지, 망했다!!)</p></button>
   </div>
 </body>
 </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="./js/keroro.js"></script>
+  <link rel="icon" href="./src/img/favicon.png">
+  <link rel="stylesheet" href="./css/keroro.css">
+  <title>결과</title>
+</head>
+<body class="container">
+  <div class="box" >
+    <img src="" class="resultImg" id="resultImg">
+    <p class="resultTxt">이 화면을 친구들과 공유해보세요!</p>
+  </div>
+  <script>
+    window.onload = function() {
+      let mbti = localStorage.getItem('result');
+      let img = document.getElementById('resultImg');
+
+      switch (mbti) {
+        case 'esfp':
+          img.src = "./src/img/result/esfp.png";
+          console.log(mbti);
+          break;
+        default:
+          img.src = "./src/img/result/esfp.png";
+          console.log(mbti);
+          break;
+      }
+    }
+  </script>
+</body>
+</html>

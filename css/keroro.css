@@ -3,7 +3,7 @@
 /* 해상도별 반응형 */
 .container { 
   font-size: 26px; 
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../src/img/backgroundImg_mobile.png');
+  background-image: url('../src/img/backgroundImg_mobile.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
@@ -13,7 +13,7 @@
 @media (min-width: 640px) {
   .container { 
     font-size: 30px; 
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../src/img/backgroundImg.png');
+    background-image: url('../src/img/backgroundImg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -35,7 +35,6 @@ body {
   -o-transition: none !important;
 
   margin: 0;
-  width: 100vw;
 }
 img {
   -webkit-user-drag: none;
@@ -69,6 +68,7 @@ red {
   /* height: 20em; */
   display: inline-block;
   padding-bottom: 2em;
+  margin-bottom: 2em;
 }
 /* 메인 로고 이미지 */
 .MainLogoImg {
@@ -145,7 +145,23 @@ red {
   padding: 0.2em 0.5em 0.5em 0.5em;
   margin-top: 0.5em;
 }
+.choiceBtn:hover {
+  cursor: pointer;
+}
 .choiceTxt {
   font-size: 1.5em;
   color: white;
+}
+
+/* 결과 페이지 */
+.resultImg {
+  margin-top: 1em;
+  margin-bottom: -0.2em;
+  width: 12em;
+}
+.resultTxt {
+  margin-bottom: 0.5em;
+  color: #FCF400;
+  text-shadow: -1px -1px 0 #0085C7, 1px -1px 0 #0085C7, -1px 1px 0 #0085C7, 1px 1px 0 #0085C7, 0 3px 0 black;
+  font-size: 0.8em;
 }
