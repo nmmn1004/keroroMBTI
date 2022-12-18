@@ -5,6 +5,8 @@
   font-size: 26px; 
   background-image: url('../src/img/backgroundImg_mobile.png');
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   background-size: 100% auto;
   text-align: center;
   height: 100%;
