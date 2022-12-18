@@ -63,8 +63,8 @@ red {
   color: #E40315;
 }
 .box {
-  margin-top: 2em;
-  border-radius: 1em;
+  margin-top: 0.75em;
+  border-radius: 0.75em;
   background-color: rgba(255, 255, 255, 0.75);
   width: 13em;
   /* height: 20em; */
@@ -166,4 +166,10 @@ red {
   color: #FCF400;
   text-shadow: -1px -1px 0 #0085C7, 1px -1px 0 #0085C7, -1px 1px 0 #0085C7, 1px 1px 0 #0085C7, 0 3px 0 black;
   font-size: 0.8em;
+}
+.taggingTxt {
+  font-size: 0.7em;
+  margin-top: 3em;
+  color: #FCF400;
+  text-shadow: -1px -1px 0 #0085C7, 1px -1px 0 #0085C7, -1px 1px 0 #0085C7, 1px 1px 0 #0085C7, 0 3px 0 black;
 }
