@@ -8,7 +8,7 @@
 
 <img width="579" alt="image" src="https://user-images.githubusercontent.com/51752838/208318263-d9acf4eb-fc26-458c-8da9-a537087d5c23.png">
 
-참고한 케로로 성격 유형
+참고한 케로로 성격 유형과 그에 따른 이미지작제작
 
 <img width="1265" alt="image" src="https://user-images.githubusercontent.com/51752838/208318309-a1cedc34-c04b-448f-afe6-4264b0cfcdd0.png">
 PC 화면
