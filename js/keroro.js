@@ -19,7 +19,6 @@ function select(m) {
   }
   else if (i == 11) {
     result();
-    console.log(mbti);
     location.href = './result.html';
   }
   else {
