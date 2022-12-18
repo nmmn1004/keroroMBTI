@@ -3,7 +3,7 @@
 /* 해상도별 반응형 */
 .container { 
   font-size: 26px; 
-  background-image: url('../src/img/backgroundImg_mobile.png');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../src/img/backgroundImg_mobile.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
@@ -13,7 +13,7 @@
 @media (min-width: 640px) {
   .container { 
     font-size: 30px; 
-    background-image: url('../src/img/backgroundImg.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../src/img/backgroundImg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
