@@ -68,7 +68,7 @@ red {
   width: 13em;
   /* height: 20em; */
   display: inline-block;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 /* 메인 로고 이미지 */
 .MainLogoImg {
@@ -143,7 +143,7 @@ red {
   border-radius: 5em;
   background-color: #F0D014;
   padding: 0.2em 0.5em 0.5em 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 .choiceTxt {
   font-size: 1.5em;
