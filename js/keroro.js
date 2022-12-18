@@ -1,4 +1,3 @@
-let mbti = [];
 let i = 0;
 let e = 0, n = 0, f = 0, p = 0;
 
