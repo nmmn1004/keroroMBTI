@@ -1,6 +1,6 @@
 # 케로로 성격 유형 검사
-
-접속 링크: https://nmmn1004.github.io/keroroMBTI/
+## 제작 기간: 11시간 30분
+## 접속 링크: https://nmmn1004.github.io/keroroMBTI/
 
 <img width="587" alt="image" src="https://user-images.githubusercontent.com/51752838/208297290-dfd5811f-ac5f-4cd7-8681-5cca383eec18.png">
 
@@ -8,7 +8,7 @@
 
 <img width="579" alt="image" src="https://user-images.githubusercontent.com/51752838/208318263-d9acf4eb-fc26-458c-8da9-a537087d5c23.png">
 
-참고한 케로로 성격 유형
+참고한 케로로 성격 유형과 그에 따른 이미지작제작
 
 <img width="1265" alt="image" src="https://user-images.githubusercontent.com/51752838/208318309-a1cedc34-c04b-448f-afe6-4264b0cfcdd0.png">
 PC 화면
@@ -44,4 +44,4 @@ next 함수로 다음 선택 상황을 출력해주는 기능 구현
 
 <img width="412" alt="image" src="https://user-images.githubusercontent.com/51752838/208318554-a841999c-0dee-4edb-811a-1a248f286b26.png">
 
-window.onload로 웹이 실행될 때 해당 mbti에 맞는 사진으로 대체하여 img태그 
+window.onload로 웹이 실행될 때 해당 mbti에 맞는 사진으로 대체하여 img태그의 src 
