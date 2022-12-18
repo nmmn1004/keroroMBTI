@@ -1,0 +1,109 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+/* 해상도별 반응형 */
+.container { font-size: 26px; }
+ 
+@media (min-width: 640px) {
+  .container { font-size: 30px; }
+}
+html {
+  background-image: url("./src/img/keronstar.jpg");
+}
+/* 드래그 방자 */
+body {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+img {
+  -webkit-user-drag: none;
+}
+/* 글씨 */
+p {
+  margin: 0;
+  font-family: 'Jua', sans-serif;
+  font-weight: 400;
+}
+.outlineBlack {
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, 0 3px 0 black;
+}
+.outlineWhite {
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white, 0 3px 0 black;
+}
+yellow {
+  color: #F0D014;
+}
+green {
+  color: #70BE6A;
+}
+red {
+  color: #E40315;
+}
+/* body */
+.container {
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url(src\img\keronstar.png);
+}
+.box, .buttonContainer {
+  width: 400px;
+  display: inline-block;
+  background-color: antiquewhite;
+}
+/* 메인 로고 이미지 */
+.MainLogoImg {
+  width: 340px;
+  margin: 30px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+/* 서브타이틀 */
+.subtitle1 {
+  font-size: 50px;
+  line-height: 63px;
+
+  margin-top: -16px;
+}
+.subtitle2 {
+
+  font-size: 45px;
+  padding-right: 20px;
+  float: right;
+  
+}
+/* 케로로 이미지 */
+.keroroMainImg {
+  width: 150px;
+  margin-top: 30px;
+  margin-right: -120px;
+}
+/* 메인 시작 버튼 */
+.buttonContainer {
+  padding-top: 30px;
+}
+.startButton {
+  font-size: 30px;
+  color: white;
+}
+.startBtn:active {
+  transition: .2s all ease-in;
+  padding-top: 5px;
+  transform: translate(0, 4px);
+  box-shadow: 0 4px 0 rgb(183,0,0), 0 8px 6px rgba(0,0,0,.45);
+}
+.startBtn {
+  text-transform: uppercase;
+  width: 300px;
+  border: 0;
+  background-color: #E40315;
+  border-radius: 20px;
+  box-sizing: border-box; 
+  box-shadow: 0 8px 0 rgb(183,0,0), 0 15px 20px rgba(0,0,0,.35);
+  text-shadow: 0 3px 1px rgba(122,17,8,.8);
+}
