@@ -10,7 +10,7 @@
 </head>
 <body class="container">
   <div class="box" >
-    <img src="" alt="성격유형" class="resultImg" id="resultImg">
+    <img src="./src/img/result/temp.jpg" alt="성격유형" class="resultImg" id="resultImg">
     <p class="resultTxt">이 화면을 친구들과 공유해보세요!</p>
   </div>
   <script>
@@ -43,9 +43,24 @@
           img.src = "./src/img/result/intp.png";
           console.log(mbti);
           break;
-
+        case 'entj':
+          img.src = "./src/img/result/entj.png";
+          console.log(mbti);
+          break;
+        case 'enfj':
+          img.src = "./src/img/result/enfj.png";
+          console.log(mbti);
+          break;
+        case 'istp':
+          img.src = "./src/img/result/istp.png";
+          console.log(mbti);
+          break;
+        case 'esfj':
+          img.src = "./src/img/result/esfj.png";
+          console.log(mbti);
+          break;
         default:
-          img.src = "";
+          img.src = "./src/img/result/temp.jpg";
           console.log(mbti);
           break;
       }
