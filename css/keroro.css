@@ -1,15 +1,28 @@
 /* 폰트 */
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 /* 해상도별 반응형 */
-.container { font-size: 26px; }
+.container { 
+  font-size: 26px; 
+  background-image: url('../src/img/backgroundImg_mobile.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  height: 100%;
+}
  
 @media (min-width: 640px) {
-  .container { font-size: 30px; }
+  .container { 
+    font-size: 30px; 
+    background-image: url('../src/img/backgroundImg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    height: 97vh;
+  }
 }
-html {
-  background-image: url("./src/img/keronstar.jpg");
-}
-/* 드래그 방자 */
+/* 드래그 방지 */
 body {
   -webkit-user-select:none;
   -moz-user-select:none;
@@ -20,6 +33,9 @@ body {
   -moz-transition: none !important;
   -ms-transition: none !important;
   -o-transition: none !important;
+
+  margin: 0;
+  width: 100vw;
 }
 img {
   -webkit-user-drag: none;
@@ -45,65 +61,91 @@ green {
 red {
   color: #E40315;
 }
-/* body */
-.container {
-  background-repeat: no-repeat;
-  text-align: center;
-  background-image: url(src\img\keronstar.png);
-}
-.box, .buttonContainer {
-  width: 400px;
+.box {
+  margin-top: 2em;
+  border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 13em;
+  /* height: 20em; */
   display: inline-block;
-  background-color: antiquewhite;
+  padding-bottom: 3em;
 }
 /* 메인 로고 이미지 */
 .MainLogoImg {
-  width: 340px;
-  margin: 30px;
-  margin-bottom: 0;
+  width: 11em;
+  margin: 2em 1em 0 1em;
   display: inline-block;
 }
 /* 서브타이틀 */
 .subtitle1 {
-  font-size: 50px;
-  line-height: 63px;
-
-  margin-top: -16px;
+  font-size: 2em;
+  line-height: 1em;
 }
 .subtitle2 {
-
-  font-size: 45px;
-  padding-right: 20px;
+  font-size: 1.6em;
+  padding-right: 0.6em;
   float: right;
-  
 }
 /* 케로로 이미지 */
 .keroroMainImg {
-  width: 150px;
-  margin-top: 30px;
-  margin-right: -120px;
+  width: 6em;
+  margin-top: 1em;
+  margin-right: -5em;
 }
 /* 메인 시작 버튼 */
-.buttonContainer {
-  padding-top: 30px;
-}
 .startButton {
-  font-size: 30px;
+  font-size: 2.4em;
   color: white;
 }
-.startBtn:active {
+/* .startBtn:active {
   transition: .2s all ease-in;
-  padding-top: 5px;
+  padding-top: 0.5em;
   transform: translate(0, 4px);
   box-shadow: 0 4px 0 rgb(183,0,0), 0 8px 6px rgba(0,0,0,.45);
-}
+} */
 .startBtn {
-  text-transform: uppercase;
-  width: 300px;
+  margin-top: 3em;
+  width: 19em;
   border: 0;
   background-color: #E40315;
-  border-radius: 20px;
+  border-radius: 5em;
   box-sizing: border-box; 
   box-shadow: 0 8px 0 rgb(183,0,0), 0 15px 20px rgba(0,0,0,.35);
   text-shadow: 0 3px 1px rgba(122,17,8,.8);
+}
+.startBtn:hover {
+  cursor: pointer;
+}
+/* 선택 사항 */
+.keroroStar {
+  width: 2.5em;
+  display: inline-block;
+  margin-top: -1em;
+}
+#step {
+  color: white;
+  margin-top: -2.25em;
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+}
+#question {
+  color: black;
+  line-height: 1.1em;
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
+#sitImg {
+  width: 10em;
+}
+.choiceBtn {
+  width: 23em;
+  border: 0;
+  border-radius: 5em;
+  background-color: #F0D014;
+  padding: 0.2em 0.5em 0.5em 0.5em;
+  margin-bottom: 0.5em;
+}
+.choiceTxt {
+  font-size: 1.5em;
+  color: white;
 }
