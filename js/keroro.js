@@ -57,7 +57,7 @@ function next(n) {
     case 4:
       q.innerHTML = '나의 침략 작전 노래로 침략!<br>전세계로 송출되는 나의 모습을 보고...';
       img.src = './src/img/select/step5.png';
-      a1.innerHTML = '캬~ 역시 나의 노래 좋구만 유명해질 일만 남았네';
+      a1.innerHTML = '캬~ 역시 나의 노래 좋구만<br>유명해질 일만 남았네';
       a2.innerHTML = '노래는 좋지만 좀 부끄럽구만..';
       break;
     case 5:
@@ -69,7 +69,7 @@ function next(n) {
     case 6:
       q.innerHTML = '도로로가 준비한 새로운 대원복!<br>하지만 영 별로다...<br>도로로에게 나는...';
       img.src = './src/img/select/step7.png';
-      a1.innerHTML = '중후한 멋이 있구만, 멋있어!!';
+      a1.innerHTML = '멋있어!! 중후한 멋이 있구만!!!';
       a2.innerHTML = '아무래도 이건 아닌 것 같아..<br>다른 거 볼까?';
       break;
     case 7:
@@ -81,7 +81,7 @@ function next(n) {
     case 8:
       q.innerHTML = '오랜만에 모인 소대원들!<br>다들 자기 애기들로 바쁜 와중에...';
       img.src = './src/img/select/step9.png';
-      a1.innerHTML = '(오늘도 활기차네)얘들아~';
+      a1.innerHTML = '(오늘도 활기차네)얘들아~얘들아~';
       a2.innerHTML = '(아 기빨린다... 언제 얘기 끝나니..)';
       break;
     case 9:
@@ -99,8 +99,8 @@ function next(n) {
     case 11:
       q.innerHTML = '우주 도령께서 당장<br>이집트에 가고 싶다고 한다!<br>나는...';
       img.src = './src/img/select/step12.png';
-      a1.innerHTML = '지금 당장 운송기 준비하도록 하겠습니다!';
-      a2.innerHTML = '우선 이집트는 모래먼지가 많으니 마스크랑...';
+      a1.innerHTML = '지금 당장 운송기 준비하도록<br>하겠습니다!';
+      a2.innerHTML = '우선 이집트는 모래먼지가 많으니<br>마스크랑...';
       break;
   } 
 }
