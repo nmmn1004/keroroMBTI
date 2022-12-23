@@ -44,4 +44,4 @@ next 함수로 다음 선택 상황을 출력해주는 기능 구현
 
 <img width="412" alt="image" src="https://user-images.githubusercontent.com/51752838/208318554-a841999c-0dee-4edb-811a-1a248f286b26.png">
 
-window.onload로 웹이 실행될 때 해당 mbti에 맞는 사진으로 대체하여 img태그의 src 
+window.onload로 result.html이 실행될 때 유저의 mbti 점수를 기반으로 한 src주소를 img태그의 src에 넣어주어 결과를 
